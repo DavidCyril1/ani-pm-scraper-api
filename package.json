@@ -1,0 +1,29 @@
+{
+  "name": "ani-pm-scraper-api",
+  "version": "1.2.0",
+  "description": "Full reverse-engineered Node.js Express API for ani.pm — metadata, search, catalog, and streaming embed resolution",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "anime",
+    "ani.pm",
+    "scraper",
+    "streaming",
+    "express",
+    "api"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  }
+}

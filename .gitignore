@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+dist/
+coverage/
+.idea/
+.vscode/
+*.pem
+.token
+ghp_*
+node_modules/
+
+node_modules/
